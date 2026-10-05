@@ -60,17 +60,3 @@ epistemic-agent/
         ├── dag_visualizer.js  # D3.js force-directed Provenance DAG visualizer
         └── belief_charts.js   # Real-time Bayesian probability meters & entropy gauge
 ```
-
----
-
-##  How to Run the Web Dashboard
-
-### 1. Start the Server:
-```bash
-cd /Users/vedansh/.gemini/antigravity/scratch/epistemic-agent
-python3 simple_server.py
-```
-Open **`http://127.0.0.1:8080`** in your browser.
-
-### 2. Select the Webcmd Benchmark:
-In the dropdown, choose **`🌐 1. Webcmd Browser Probe: Dynamic UI Calculator Verification`** and click **`🚀 Execute Epistemic Loop`** to watch the live `webcmd` browser automation in action!
